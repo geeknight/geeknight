@@ -55,8 +55,9 @@
             
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href=".#">Login</a>
+            <li class="login navbar-text" ng-controller="LoginCtrl" ng-cloak>
+              <span ng-show="user">{{user.name}} | <a ng-click="logout()">Logout</a></span>
+              <span ng-hide="user"><a ng-click="login()">Login</a></span>
             </li>
           </ul>
         </nav>
@@ -77,6 +78,9 @@
 
     <script src="bower_components/jquery/jquery.js"></script>
     <script src="bower_components/angular/angular.js"></script>
+    <script src="https://cdn.firebase.com/v0/firebase.js"></script>
+    <script src='https://cdn.firebase.com/v0/firebase-simple-login.js'></script>
+    <script src="bower_components/angular-fire/angularFire.js"></script>
 
         <!-- build:js scripts/plugins.js -->
         <script src="bower_components/sass-bootstrap/js/affix.js"></script>
@@ -103,6 +107,8 @@
         <!-- build:js({.tmp,app}) scripts/scripts.js -->
         <script src="scripts/app.js"></script>
         <script src="scripts/controllers/main.js"></script>
+        <script src="scripts/controllers/login.js"></script>
+        <script src="scripts/services/userService.js"></script>
         <!-- endbuild -->
 </body>
 </html>

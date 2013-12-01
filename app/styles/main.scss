@@ -13,14 +13,16 @@ body {
     padding: 0.2em 0;
 }
 
+.login {
+    span {
+        curor: pointer;
+    }
+}
+
 .view-content {
     margin-top: 64px;
 
     .masthead {
-        img {
-            width: 75%;
-            height: 75%;
-        }
         h1 {
             font-size: 100px;
         }
