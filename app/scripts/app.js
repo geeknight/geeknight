@@ -13,6 +13,10 @@ angular.module('geeknightApp', [
         templateUrl: 'views/main.html',
         controller: 'MainCtrl'
       })
+      .when('/participate', {
+        templateUrl: 'views/participate.html',
+        controller: 'ParticipateCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
