@@ -1,17 +1,11 @@
 <div class="panel panel-primary">
     <div class="panel-heading">Let us know that you are coming!</div>
-    <div class="panel-body">
+    <div class="panel-body" ng-controller="ParticipateCtrl">
         <form class="form-horizontal" role="form">
           <div class="form-group">
             <label for="inputFirstName" class="col-sm-2 control-label">First Name</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputFirstName" placeholder="First Name">
-            </div>
-          </div>
-          <div class="form-group">
-            <label for="inputFirstName" class="col-sm-2 control-label">Last Name</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputLastName" placeholder="Last Name">
+              <input type="text" class="form-control" id="inputFirstName" placeholder="Name" ng-model="user.name">
             </div>
           </div>
           <div class="form-group">
@@ -23,13 +17,13 @@
           <div class="form-group">
             <label for="inputOrganization" class="col-sm-2 control-label">Organization</label>
             <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputOrganization" placeholder="Organization">
+              <input type="text" class="form-control" id="inputOrganization" placeholder="Organization" ng-model="user.company">
             </div>
           </div>
           <div class="form-group">
-            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+            <label for="inputEmail" class="col-sm-2 control-label">Email</label>
             <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+              <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="user.email">
             </div>
           </div>
           <div class="form-group">
