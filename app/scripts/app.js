@@ -17,6 +17,10 @@ angular.module('geeknightApp', [
         templateUrl: 'views/participate.html',
         controller: 'ParticipateCtrl'
       })
+      .when('/talk', {
+        templateUrl: 'views/talk.html',
+        controller: 'TalkCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });
