@@ -1,7 +1,7 @@
 'use strict';
 
 angular.module('geeknightApp')
-  .controller('LoginCtrl', function ($scope, userService, angularFireAuth) {
+  .controller('LoginCtrl', function ($scope, $rootScope, userService, angularFireAuth) {
     var url = "https://geeknight.firebaseio.com";
     var ref = new Firebase(url)
     angularFireAuth.initialize(ref, {scope: $scope, name: "user"});
@@ -16,11 +16,13 @@ angular.module('geeknightApp')
     $scope.$on("angularFireAuth:login", function(evt, user) {
       userService.user = $scope.user;
       userService.isLogged = true;
+      $rootScope.$broadcast("userLogin");
     });
 
     $scope.$on("angularFireAuth:logout", function(evt) {
       userService.isLogged = false;
       userService.user = null;
+      $rootScope.$broadcast("userLogin");
     });
 });
 
