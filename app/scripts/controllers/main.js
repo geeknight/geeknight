@@ -2,12 +2,6 @@
 
 angular.module('geeknightApp')
   .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-
     $scope.tabs = ["When", "Where", "What"]
     $scope.selectedTabIndex = 0;
     $scope.when = true;
