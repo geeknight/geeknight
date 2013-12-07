@@ -1,0 +1,38 @@
+{
+  "Date" : "28-11-2013",
+  "agenda" : [ {
+    "title" : "Welcome Note",
+    "time" : "5:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "https://github.com/sudhakarr",
+      "name" : "Sudhakar R"
+    },
+    "title" : "Client Side Templates",
+    "time" : "6:00PM"
+  }, {
+    "presenter" : {
+      "contact" : "https://www.facebook.com/narendranr92",
+      "name" : "Narendran R"
+    },
+    "title" : "A credit card sized linux machine - Raspberrypi",
+    "time" : "6:45PM"
+  }, {
+    "title" : "Break",
+    "time" : "7:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://www.linkedin.com/in/mrajesh123",
+      "name" : "Rajesh Muppalla"
+    },
+    "title" : "Building a distributed crawling engine using Scala and Akka",
+    "time" : "7:45PM"
+  }, {
+    "title" : "Ad-hoc",
+    "time" : "8:30PM"
+  }, {
+    "title" : "Networking & Dinner",
+    "time" : "9:00PM"
+  } ],
+  "Name" : "November 2013"
+}
