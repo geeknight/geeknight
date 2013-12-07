@@ -1,0 +1,63 @@
+{
+  "Date" : "29-10-2013",
+  "agenda" : [ {
+    "title" : "Welcome Note",
+    "time" : "5:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://twitter.com/selvakn",
+      "name" : "Selvakumar Natesan"
+    },
+    "resources" : [{
+      "location": "https://speakerdeck.com/selvakn/ways-to-sync-data-in-mobile-android",
+      "title": "Presentation"
+    }],
+    "title" : "N Different Ways to Sync Data",
+    "time" : "6:00PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:varadham@thoughtworks.com",
+      "name" : "Varadharajan M"
+    },
+    "resources" : [{
+      "location": "http://incubator.apache.org/drill/",
+      "title": "Apache Drill"
+    }],
+    "title" : "Demystifying Apache Drill",
+    "time" : "6:45PM"
+  }, {
+    "title" : "Break",
+    "time" : "7:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:aravindh@thoughtworks.com",
+      "name" : "Aravindh S"
+    },
+    "title" : "A Primer on MSIL and IL Injection in C#",
+    "time" : "7:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://facebook.com/rdx.subhas",
+      "name" : "Subhas Dandapani (RDX)"
+    },
+    "resources" : [{
+      "location": "http://kitkat.com/",
+      "title": "Android KitKat"
+    },{
+      "location": "http://michael2023.com/",
+      "title": "Michael2023"
+    },{
+      "location": "http://www.rleonardi.com/interactive-resume/",
+      "title": "Interactive Resume"
+    }],
+    "title" : "Creating Parallax websites using Skrollr",
+    "time" : "8:30PM"
+  }, {
+    "title" : "Open Talk",
+    "time" : "8:45PM"
+  }, {
+    "title" : "Networking & Dinner",
+    "time" : "9:00PM"
+  } ],
+  "Name" : "October 2013"
+}

@@ -18,9 +18,11 @@
 		<li ng-repeat="item in event.agenda">
 			{{item.time}} | {{item.title}} |
 			<a href="{{item.presenter.contact}}">{{item.presenter.name}}</a>
-			<a href="{{item.resources.code}}" ng-show="item.resources.code != undefined"> | Code | </a>
-			<a href="{{item.resources.slides}}" ng-show="item.resources.slides != undefined">Slides | </a>
-			<a href="{{item.resources.demo}}" ng-show="item.resources.demo != undefined">Demo</a>
+			<ul>
+				<li ng-repeat="link in item.resources">
+					<a href="{{link.location}}">{{link.title}}</a>
+				</li>
+			</ul>
 		</li>
 	</ul>
   </div>

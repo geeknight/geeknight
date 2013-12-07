@@ -1,0 +1,79 @@
+{
+  "Date" : "25-07-2013",
+  "agenda" : [ {
+    "title" : "Why Geek Night?",
+    "time" : "5:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:bharanis@thoughtworks.com",
+      "name" : "Bharani Subramanian"
+    },
+    "title" : "Realtime Analytics using R",
+    "time" : "5:45PM"
+  }, {
+    "resources" : [{
+      "location": "http://rdsubhas.github.io/ppl",
+      "title": "Demo"
+    }],
+    "presenter" : {
+      "contact" : "http://facebook.com/rdx.subhas",
+      "name" : "Subhas Dandapani (RDX)"
+    },
+    "title" : "Visualizing tournament scores using D3JS and underscore",
+    "time" : "6:15PM"
+  }, {
+    "resources" : [{
+      "location": "http://t.co/5YLa3KfStS",
+      "title": "Slides"
+    }, {
+      "location": "http://t.co/qsGllcvrxq",
+      "title": "Code"
+    }],
+    "presenter" : {
+      "contact" : "http://twitter.com/tamizhvendan",
+      "name" : "Tamilvendan Sembiyan"
+    },
+    "title" : "IntelliSense for your Intimidating Data",
+    "time" : "6:45PM"
+  }, {
+    "title" : "Break",
+    "time" : "7:15PM"
+  }, {
+    "resources" : [{
+      "location": "http://bit.ly/11lbijY",
+      "title": "Slides"
+    }],
+    "presenter" : {
+      "contact" : "mailto:vsiva@thoughtworks.com",
+      "name" : "Sivasubramanian V"
+    },
+    "title" : "Building a Durable Object",
+    "time" : "7:30PM"
+  }, {
+    "resources" : [{
+      "location": "http://glsl.heroku.com/",
+      "title": "GLSL Sandbox"
+    }],
+    "presenter" : {
+      "contact" : "mailto:ashokgowtham123@gmail.com",
+      "name" : "Ashok Gowtham"
+    },
+    "title" : "Fast Graphics using C",
+    "time" : "8:00PM"
+  }, {
+    "resources" : [{
+      "location": "http://slid.es/steam/search-engine/",
+      "title": "Slides"
+    }],
+    "presenter" : {
+      "contact" : "mailto:srikanth.ddit@gmail.com",
+      "name" : "Srikanth Venugopalan"
+    },
+    "title" : "Search engine implementation - beyond simple text match",
+    "time" : "8:30PM"
+  }, {
+    "title" : "Networking & Dinner",
+    "time" : "9:00PM"
+  } ],
+  "Name" : "July 2013"
+}

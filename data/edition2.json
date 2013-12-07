@@ -1,0 +1,49 @@
+{
+  "Date" : "22-08-2013",
+  "agenda" : [ {
+    "title" : "Welcome Note",
+    "time" : "5:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://yekkans.com/",
+      "name" : "Yekkanti Kishore Kumar"
+    },
+    "title" : "NoSQL 101 - Use right database for a problem",
+    "time" : "5:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "#",
+      "name" : "Prabu Palanisamy"
+    },
+    "title" : "Natural Language Processing - Python",
+    "time" : "6:15PM"
+  }, {
+    "title" : "Break",
+    "time" : "6:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "#",
+      "name" : "Surendranath Reddy"
+    },
+    "title" : "3-D Printing",
+    "time" : "7:00PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:ashokgowtham123@gmail.com",
+      "name" : "Ashok Gowtham"
+    },
+    "title" : "What can be done using 1 line of .Net code; Automation Tips and tricks",
+    "time" : "7:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:varadham@thoughtworks.com",
+      "name" : "Varadharajan"
+    },
+    "title" : "Neural Networks 101",
+    "time" : "8:00PM"
+  }, {
+    "title" : "Networking & Dinner",
+    "time" : "9:00PM"
+  } ],
+  "Name" : "August 2013"
+}

@@ -1,0 +1,49 @@
+{
+  "Date" : "25-09-2013",
+  "agenda" : [ {
+    "title" : "Welcome Note",
+    "time" : "5:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://twitter.com/mechiland",
+      "name" : "Michael Chen"
+    },
+    "title" : "Startup Journey - Innovation and Challenges",
+    "time" : "5:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "http://twitter.com/vagmi",
+      "name" : "Vagmi Mudumbai"
+    },
+    "title" : "5 things you may not know about Postgres",
+    "time" : "6:15PM"
+  }, {
+    "title" : "Break",
+    "time" : "6:45PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:rkarthiksing@gmail.com",
+      "name" : "Karthik Singaram"
+    },
+    "title" : "Emerging trends in Microcontroller programming",
+    "time" : "7:00PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:jsenthilvelan@gmail.com",
+      "name" : "Senthilvelan Jayabal"
+    },
+    "title" : "Rangoliz HTML5 app for creating Rangoli designs",
+    "time" : "7:30PM"
+  }, {
+    "presenter" : {
+      "contact" : "mailto:vishnuvvn@gmail.com",
+      "name" : "Vishnu Vankayala"
+    },
+    "title" : "Building customer intelligence online",
+    "time" : "8:00PM"
+  }, {
+    "title" : "Networking & Dinner",
+    "time" : "9:00PM"
+  } ],
+  "Name" : "September 2013"
+}
