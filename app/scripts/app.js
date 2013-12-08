@@ -10,15 +10,15 @@ angular.module('geeknightApp', [
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {
-        templateUrl: 'views/main.html',
+        templateUrl: 'views/_main.html',
         controller: 'MainCtrl'
       })
       .when('/participate', {
-        templateUrl: 'views/participate.html',
+        templateUrl: 'views/_participate.html',
         controller: 'ParticipateCtrl'
       })
       .when('/talk', {
-        templateUrl: 'views/talk.html',
+        templateUrl: 'views/_talk.html',
         controller: 'TalkCtrl'
       })
       .otherwise({
