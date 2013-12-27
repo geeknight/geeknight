@@ -24,4 +24,5 @@ angular.module('geeknightApp', [
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .constant('edition',6);

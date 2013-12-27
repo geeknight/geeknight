@@ -1,7 +1,7 @@
 'use strict';
 
-angular.module('geeknightApp').controller('ParticipateCtrl', function ($scope, userService, angularFire) {
-  var url = "https://geeknight.firebaseio.com/chennai/users";
+angular.module('geeknightApp').controller('ParticipateCtrl', function ($scope, userService, angularFire,edition) {
+  var url = "https://geeknight.firebaseio.com/chennai/Edition "+edition+"/participants";
   var userBase = new Firebase(url);
   $scope.isRegistered = false;
   $scope.participants = [];
@@ -13,12 +13,12 @@ angular.module('geeknightApp').controller('ParticipateCtrl', function ($scope, u
   });
 
   $scope.participate = function () {
-    $scope.participants.push(buildUser($scope.user));
+    $scope.participants.push(buildParticipant($scope.user));
     $scope.isRegistered = true;
     angularFire(userBase, $scope, 'participants');
   };
 
-  var buildUser = function (user) {
+  var buildParticipant = function (user) {
     return {
       name: user.name,
       phone: user.phone,
