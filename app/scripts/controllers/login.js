@@ -2,27 +2,26 @@
 
 angular.module('geeknightApp')
   .controller('LoginCtrl', function ($scope, $rootScope, userService, angularFireAuth) {
-    var url = "https://geeknight.firebaseio.com";
-    var ref = new Firebase(url)
-    angularFireAuth.initialize(ref, {scope: $scope, name: "user"});
+    var url = 'https://geeknight.firebaseio.com';
+    var ref = new Firebase(url);
+    angularFireAuth.initialize(ref, {scope: $scope, name: 'user'});
 
     $scope.login = function() {
-        angularFireAuth.login("github");
+      angularFireAuth.login('github');
     };
     $scope.logout = function() {
-        angularFireAuth.logout();
+      angularFireAuth.logout();
     };
 
-    $scope.$on("angularFireAuth:login", function(evt, user) {
+    $scope.$on('angularFireAuth:login', function() {
       userService.user = $scope.user;
       userService.isLogged = true;
-      $rootScope.$broadcast("userLogin");
+      $rootScope.$broadcast('userLogin');
     });
 
-    $scope.$on("angularFireAuth:logout", function(evt) {
+    $scope.$on('angularFireAuth:logout', function() {
       userService.isLogged = false;
       userService.user = null;
-      $rootScope.$broadcast("userLogin");
+      $rootScope.$broadcast('userLogin');
     });
-});
-
+  });
