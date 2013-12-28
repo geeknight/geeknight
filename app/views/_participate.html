@@ -1,43 +1,44 @@
-<div ng-hide="isRegistered">
-  <div class="panel panel-primary">
-    <div class="panel-heading">Let us know that you are coming!</div>
-    <div class="panel-body" ng-controller="ParticipateCtrl">
-        <form class="form-horizontal" role="form">
-          <div class="form-group">
-            <label for="inputFirstName" class="col-sm-2 control-label">First Name</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputFirstName" placeholder="Name" ng-model="user.name">
-            </div>
+<div class="panel panel-primary" ng-hide="isRegistered">
+  <div class="panel-heading">Let us know that you are coming!</div>
+  <div class="panel-body">
+      <form class="form-horizontal" role="form" ng-submit="participate()">
+        <div class="form-group">
+          <label for="inputFirstName" class="col-sm-2 control-label">First Name</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputFirstName" placeholder="Name" ng-model="user.name" required>
           </div>
-          <div class="form-group">
-            <label for="inputPhoneNumber" class="col-sm-2 control-label">Phone Number</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone Number" ng-model="user.phone">
-            </div>
+        </div>
+        <div class="form-group">
+          <label for="inputPhoneNumber" class="col-sm-2 control-label">Phone Number</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputPhoneNumber" placeholder="Phone Number" ng-model="user.phone" required>
           </div>
-          <div class="form-group">
-            <label for="inputOrganization" class="col-sm-2 control-label">Organization</label>
-            <div class="col-sm-10">
-              <input type="text" class="form-control" id="inputOrganization" placeholder="Organization" ng-model="user.company">
-            </div>
+        </div>
+        <div class="form-group">
+          <label for="inputOrganization" class="col-sm-2 control-label">Organization</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="inputOrganization" placeholder="Organization" ng-model="user.company" required>
           </div>
-          <div class="form-group">
-            <label for="inputEmail" class="col-sm-2 control-label">Email</label>
-            <div class="col-sm-10">
-              <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="user.email">
-            </div>
+        </div>
+        <div class="form-group">
+          <label for="inputEmail" class="col-sm-2 control-label">Email</label>
+          <div class="col-sm-10">
+            <input type="email" class="form-control" id="inputEmail" placeholder="Email" ng-model="user.email" required>
           </div>
-          <div class="form-group">
-            <div class="col-sm-offset-2 col-sm-10">
-              <button class="btn btn-default" ng-click="participate()">I'm in!</button>
-            </div>
+        </div>
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <input type="submit" class="btn btn-default" value="I'm in!"/>
           </div>
-        </form>
-    </div>
+        </div>
+      </form>
   </div>
 </div>
-<div class="panel-heading" ng-show="isRegistered">
-    Thank you for participating !!
+<div class="panel panel-primary" ng-show="isRegistered">
+    <div class="panel-heading">Thank you for participating !!</div>
+    <div class="panel-body">
+      Would you like to register another person? <a ng-click="newRegistration()">Click Here</a>
+    </div>
 </div>
 <div class="panel panel-primary">
   <div class="panel-heading">Who else is coming!</div>
